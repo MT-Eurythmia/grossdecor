@@ -7,4 +7,12 @@ minetest.register_node('grossdecor:cash_register', {
 	paramtype = 'light',
 	paramtype2 = 'facedir',
 	is_ground_content = false,
+	selection_box = {
+		type = "fixed",
+		fixed = {{-.5, -.5, -.5, .5, -.125, .5}},
+		},
+	collision_box = {
+		type = "fixed",
+		fixed = {{-.5, -.5, -.5, .5, -.125, .5}},
+		}
 })
