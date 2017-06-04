@@ -29,6 +29,6 @@ minetest.register_node('grossdecor:vintage_computer', {
 	is_ground_content = false,
 	selection_box = {
 		type = 'fixed',
-		fixed = {{-.5, -.5, -.5, .5, 1, .5}},
+		fixed = {{-.5, -.5, -.5, .5, 1.5, .5}},
 	}
 })
